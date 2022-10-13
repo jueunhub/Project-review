@@ -41,8 +41,8 @@
 5. #### Postman
 
     - Backend API의 테스트 (FE측, BE측 모두) 에 활용성이 좋았다.
-    - Postman<sup id="postman">[2](#postman)</sup>의 대체로 Swagger UI를 사용하는게 더 편리할 것 같다고 생각하지만 실제 백엔드 개발자의 공수가 투입되어야 하는 만큼 그들이 익숙한 툴을 사용하는 것도 중요 고려사항인 것 같다.
-    - Swagger UI<sup id="swagger-ui">[3](#swagger-ui)</sup>를 사용한 pilot 프로젝트를 수행해서 얼마나 사용성이 좋은지 서로 확인하는 기회를 가지는 것도 좋을 것 같다.
+    - Postman<sup id="postman0">[2](#postman)</sup>의 대체로 Swagger UI를 사용하는게 더 편리할 것 같다고 생각하지만 실제 백엔드 개발자의 공수가 투입되어야 하는 만큼 그들이 익숙한 툴을 사용하는 것도 중요 고려사항인 것 같다.
+    - Swagger UI<sup id="swagger-ui0">[3](#swagger-ui)</sup>를 사용한 pilot 프로젝트를 수행해서 얼마나 사용성이 좋은지 서로 확인하는 기회를 가지는 것도 좋을 것 같다.
 
 
 6. #### Figma
@@ -54,7 +54,7 @@
 7. #### Webstorm
 
     - Git lifecycle 지원하는 여러가지 플러그인 등 기능이 좋았다.
-    - BMS 프로젝트에서는 ESLint<sup id="eslint">[4](#eslint)</sup>를 사용하지 않았지만 향후 프로젝트에는 ESLint, 가능하다면 Prettier도 사용할 예정이므로 대비가 필요하다.
+    - BMS 프로젝트에서는 ESLint<sup id="eslint0">[4](#eslint)</sup>를 사용하지 않았지만 향후 프로젝트에는 ESLint, 가능하다면 Prettier도 사용할 예정이므로 대비가 필요하다.
 
 
 8. #### Spring 프로젝트 하위 워크스페이스 구조 - React build 공정
@@ -99,13 +99,13 @@
     - Tailwind CSS 검토를 고려해보면 좋을 것 같다.
 
 
-4. #### dayjs<sup id="day-js">[5](#day-js)</sup>
+4. #### dayjs<sup id="day-js0">[5](#day-js)</sup>
 
     - moment.js의 지원 중단으로 프로젝트 중간에 대체했다.
 
     - Timezone 계산, 시간 객체간 비교&계산&변환, formatting에 유리하다.
 
-    - 차트 drill up/down<sup id="drill-updown">[6](#drill-updown)</sup>에 시간 단위 계산에 필수적이었다.
+    - 차트 drill up/down<sup id="drill-updown0">[6](#drill-updown)</sup>에 시간 단위 계산에 필수적이었다.
 
 
 5. #### just-safe-get / just-safe-set
@@ -128,12 +128,12 @@
     - 다음 프로젝트에서는 자체적으로 Tree 컴포넌트를 개발하여 반영할 수 있도록 시도하는 것이 나을 것으로 소견된다.
 
 
-7. #### chart.js<sup id="chart-js">[7](#chart-js)</sup>
+7. #### chart.js<sup id="chart-js0">[7](#chart-js)</sup>
 
     - 드릴 업/다운시 좌표 인식에 대한 버그 - padding 인위적 추가로 해결했다.
 
 
-8. #### react-dnd<sup id="react-dnd">[8](#react-dnd)</sup>
+8. #### react-dnd<sup id="react-dnd0">[8](#react-dnd)</sup>
 
     - 태블릿에서 드래그/드랍 동작하지 않는 이슈 -> backend(드래그&드랍 엔진 HTML5 + Touch >> Multibackend ) 교체로 일부 해결했으나 preview 기능이 안드로이드에서는 동작하지 않았다.
     - preview 기능이 안드로이드 태블릿에서 동작할 수 있는 추가 dependency로 react-dnd-preview를 사용했다.
@@ -142,7 +142,7 @@
 9. #### react-hook-form
 
     - 대안적 dependency -> Formik
-    - 가장 어려웠던 점 : 사용자 액션을 통해 값을 변경해도 반영되어 받아지지 않고, 기본값을 지정해도 표출되지 않고, isValid/isDirty<sup id="isvalid-isdirty">[9](#isvalid-isdirty)</sup>가 즉각적으로 반영되지 않는 점
+    - 가장 어려웠던 점 : 사용자 액션을 통해 값을 변경해도 반영되어 받아지지 않고, 기본값을 지정해도 표출되지 않고, isValid/isDirty<sup id="isvalid-isdirty0">[9](#isvalid-isdirty)</sup>가 즉각적으로 반영되지 않는 점
     - 중간에 디자인 변경으로 재작업이 발생한 점, 데이터를 뒤늦게 반영하여 확인 시점이 늦어진 점 등이 hazard로 작용했다.
     - 다음 프로젝트부터는 general-input의 설계만 계승해서 새로운 코드로 신규 작성하여 사용하고 Row/Col 디자인을 배제하고 인풋 고유의 기능만 제공하는 컴포넌트로 개발하는게 좋을 것 같다.
     - 화면 코드에 Controller를 사용하지 않도록 공통 컴포넌트에 통합개발
@@ -309,14 +309,14 @@
 
 ------
 <a name="gantt-chart" href="#gantt-chart0">1</a>: 프로젝트 일정관리를 위한 바형태의 도구<br>
-<a id="postman0" href="#postman">2</a>: API 개발을 빠르고 쉽게 구현할수있도록 도와주며 개발된 API를 테스트하여 공유할수있도록 도와주는 플랫폼<br>
-<a id="swagger-ui0" href="#swagger-ui">3</a>: 사용자가 REST API를 빠르고 쉽게 배우고 실행하도록 하기 위해 대화식 API 콘솔을 생성할 수 있는 표시장치 프레임워크<br>
-<a id="eslint0" href="#eslint">4</a>: 코드를 분석해 문법적인 오류나 안티 패턴을 찾아주고 일관된 코드 스타일로 작성하도록 도와주는 오픈소스<br>
-<a id="day-js0" href="#day-js">5</a>: 많은 JavaScript 날짜 관련 라이브러리중 가장 가벼운 라이브러리<br>
-<a id="drill-updown0" href="#drill-updown">6</a>: <br/>드릴다운(Drill Down)데이터 조회를 상위 수준에서 하위 수준으로 하는 방식을 의미합니다.<br>드릴업(Drill Up)데이터 조회를 하위 수준에서 상위 수준으로 하는 방식을 의미합니다.<br>
-<a id="chart-js0" href="#chart-js">7</a>: 막대 그래프, 차트등 데이터 시각화를위한 오픈소스 라이브러리 <br>
-<a id="react-dnd0" href="#react-dnd">8</a>: 아이템간의 순서변경, 드래그 액션을 편리하게 사용할수있는 기능<br>
-<a id="isvalid-isdirty0" href="#isvalid-isdirty">9</a>: useForm에 어떤 필드든 특정 이벤트(사용자의 입력등)가 있었는지 확인할때사용 어떤 필드에 사용자 입력이 있었는지 알아낼때 사용
+<a name="postman" href="#postman0">2</a>: API 개발을 빠르고 쉽게 구현할수있도록 도와주며 개발된 API를 테스트하여 공유할수있도록 도와주는 플랫폼<br>
+<a name="swagger-ui" href="#swagger-ui0">3</a>: 사용자가 REST API를 빠르고 쉽게 배우고 실행하도록 하기 위해 대화식 API 콘솔을 생성할 수 있는 표시장치 프레임워크<br>
+<a name="eslint" href="#eslint0">4</a>: 코드를 분석해 문법적인 오류나 안티 패턴을 찾아주고 일관된 코드 스타일로 작성하도록 도와주는 오픈소스<br>
+<a name="day-js" href="#day-js0">5</a>: 많은 JavaScript 날짜 관련 라이브러리중 가장 가벼운 라이브러리<br>
+<a name="drill-updown" href="#drill-updown0">6</a>: <br/>드릴다운(Drill Down)데이터 조회를 상위 수준에서 하위 수준으로 하는 방식을 의미합니다.<br>드릴업(Drill Up)데이터 조회를 하위 수준에서 상위 수준으로 하는 방식을 의미합니다.<br>
+<a name="chart-js" href="#chart-js0">7</a>: 막대 그래프, 차트등 데이터 시각화를위한 오픈소스 라이브러리 <br>
+<a name="react-dnd" href="#react-dnd0">8</a>: 아이템간의 순서변경, 드래그 액션을 편리하게 사용할수있는 기능<br>
+<a name="isvalid-isdirty" href="#isvalid-isdirty0">9</a>: useForm에 어떤 필드든 특정 이벤트(사용자의 입력등)가 있었는지 확인할때사용 어떤 필드에 사용자 입력이 있었는지 알아낼때 사용
 
 
    
