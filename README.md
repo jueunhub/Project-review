@@ -28,7 +28,7 @@
 3. #### Teams
 
     - 스토리보드, 일정 문서 등을 공유하기 위해 팀즈 파일 저장소(OneDrive)를 사용했다.
-    - Gantt Chart<sup id="gantt-chart"><a href="#gantt-chart0">[1](#gantt-chart)</a></sup> 지원 도구(Notion 등)를 도입하는것에 대한 추가적인 검토와 검증이 필요하다.
+    - Gantt Chart<sup id="gantt-chart0">[1](#gantt-chart)</sup> 지원 도구(Notion 등)를 도입하는것에 대한 추가적인 검토와 검증이 필요하다.
 
 4. #### Git
 
@@ -308,7 +308,7 @@
 <br>
 
 ------
-<a id="gantt-chart0" href="#gantt-chart">1</a>: 프로젝트 일정관리를 위한 바형태의 도구<br>
+<a name="gantt-chart" href="#gantt-chart0">1</a>: 프로젝트 일정관리를 위한 바형태의 도구<br>
 <a id="postman0" href="#postman">2</a>: API 개발을 빠르고 쉽게 구현할수있도록 도와주며 개발된 API를 테스트하여 공유할수있도록 도와주는 플랫폼<br>
 <a id="swagger-ui0" href="#swagger-ui">3</a>: 사용자가 REST API를 빠르고 쉽게 배우고 실행하도록 하기 위해 대화식 API 콘솔을 생성할 수 있는 표시장치 프레임워크<br>
 <a id="eslint0" href="#eslint">4</a>: 코드를 분석해 문법적인 오류나 안티 패턴을 찾아주고 일관된 코드 스타일로 작성하도록 도와주는 오픈소스<br>
