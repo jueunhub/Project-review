@@ -28,7 +28,7 @@
 3. #### Teams
 
     - 스토리보드, 일정 문서 등을 공유하기 위해 팀즈 파일 저장소(OneDrive)를 사용했다.
-    - Gantt Chart<sup href="#gantt-chart0" id="gantt-chart">[1](#gantt-chart)</sup> 지원 도구(Notion 등)를 도입하는것에 대한 추가적인 검토와 검증이 필요하다.
+    - Gantt Chart<sup id="gantt-chart"><a href="#gantt-chart0">[1](#gantt-chart)</a></sup> 지원 도구(Notion 등)를 도입하는것에 대한 추가적인 검토와 검증이 필요하다.
 
 4. #### Git
 
