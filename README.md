@@ -255,7 +255,7 @@
 
 6. #### GeneralInput ♻️
 
-    - 위 react-hook-form에 통합 작성함
+    - 위 react-hook-form에 통합 작성
 
 
 7. #### 바, 도넛, 라인, 드릴라인 그래프
