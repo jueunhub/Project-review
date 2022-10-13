@@ -41,8 +41,8 @@
 5. #### Postman
 
     - Backend API의 테스트 (FE측, BE측 모두) 에 활용성이 좋았다.
-    - Postman<sup>[2](#postman)</sup>의 대체로 Swagger UI를 사용하는게 더 편리할 것 같다고 생각하지만 실제 백엔드 개발자의 공수가 투입되어야 하는 만큼 그들이 익숙한 툴을 사용하는 것도 중요 고려사항인 것 같다.
-    - Swagger UI<sup>[3](#swagger-ui)</sup>를 사용한 pilot 프로젝트를 수행해서 얼마나 사용성이 좋은지 서로 확인하는 기회를 가지는 것도 좋을 것 같다.
+    - Postman<sup id="postman">[2](#postman)</sup>의 대체로 Swagger UI를 사용하는게 더 편리할 것 같다고 생각하지만 실제 백엔드 개발자의 공수가 투입되어야 하는 만큼 그들이 익숙한 툴을 사용하는 것도 중요 고려사항인 것 같다.
+    - Swagger UI<sup id="swagger-ui">[3](#swagger-ui)</sup>를 사용한 pilot 프로젝트를 수행해서 얼마나 사용성이 좋은지 서로 확인하는 기회를 가지는 것도 좋을 것 같다.
 
 
 6. #### Figma
@@ -54,7 +54,7 @@
 7. #### Webstorm
 
     - Git lifecycle 지원하는 여러가지 플러그인 등 기능이 좋았다.
-    - BMS 프로젝트에서는 ESLint<sup>[4](#eslint)</sup>를 사용하지 않았지만 향후 프로젝트에는 ESLint, 가능하다면 Prettier도 사용할 예정이므로 대비가 필요하다.
+    - BMS 프로젝트에서는 ESLint<sup id="eslint">[4](#eslint)</sup>를 사용하지 않았지만 향후 프로젝트에는 ESLint, 가능하다면 Prettier도 사용할 예정이므로 대비가 필요하다.
 
 
 8. #### Spring 프로젝트 하위 워크스페이스 구조 - React build 공정
@@ -99,13 +99,13 @@
     - Tailwind CSS 검토를 고려해보면 좋을 것 같다.
 
 
-4. #### dayjs<sup>[5](#day-js)</sup>
+4. #### dayjs<sup id="day-js">[5](#day-js)</sup>
 
     - moment.js의 지원 중단으로 프로젝트 중간에 대체했다.
 
     - Timezone 계산, 시간 객체간 비교&계산&변환, formatting에 유리하다.
 
-    - 차트 drill up/down<sup>[6](#drill-updown)</sup>에 시간 단위 계산에 필수적이었다.
+    - 차트 drill up/down<sup id="drill-updown">[6](#drill-updown)</sup>에 시간 단위 계산에 필수적이었다.
 
 
 5. #### just-safe-get / just-safe-set
@@ -128,12 +128,12 @@
     - 다음 프로젝트에서는 자체적으로 Tree 컴포넌트를 개발하여 반영할 수 있도록 시도하는 것이 나을 것으로 소견된다.
 
 
-7. #### chart.js<sup>[7](#chart-js)</sup>
+7. #### chart.js<sup id="chart-js">[7](#chart-js)</sup>
 
     - 드릴 업/다운시 좌표 인식에 대한 버그 - padding 인위적 추가로 해결했다.
 
 
-8. #### react-dnd<sup>[8](#react-dnd)</sup>
+8. #### react-dnd<sup id="react-dnd">[8](#react-dnd)</sup>
 
     - 태블릿에서 드래그/드랍 동작하지 않는 이슈 -> backend(드래그&드랍 엔진 HTML5 + Touch >> Multibackend ) 교체로 일부 해결했으나 preview 기능이 안드로이드에서는 동작하지 않았다.
     - preview 기능이 안드로이드 태블릿에서 동작할 수 있는 추가 dependency로 react-dnd-preview를 사용했다.
@@ -142,7 +142,7 @@
 9. #### react-hook-form
 
     - 대안적 dependency -> Formik
-    - 가장 어려웠던 점 : 사용자 액션을 통해 값을 변경해도 반영되어 받아지지 않고, 기본값을 지정해도 표출되지 않고, isValid/isDirty<sup>[9](#isvalid-isdirty)</sup>가 즉각적으로 반영되지 않는 점
+    - 가장 어려웠던 점 : 사용자 액션을 통해 값을 변경해도 반영되어 받아지지 않고, 기본값을 지정해도 표출되지 않고, isValid/isDirty<sup id="isvalid-isdirty">[9](#isvalid-isdirty)</sup>가 즉각적으로 반영되지 않는 점
     - 중간에 디자인 변경으로 재작업이 발생한 점, 데이터를 뒤늦게 반영하여 확인 시점이 늦어진 점 등이 hazard로 작용했다.
     - 다음 프로젝트부터는 general-input의 설계만 계승해서 새로운 코드로 신규 작성하여 사용하고 Row/Col 디자인을 배제하고 인풋 고유의 기능만 제공하는 컴포넌트로 개발하는게 좋을 것 같다.
     - 화면 코드에 Controller를 사용하지 않도록 공통 컴포넌트에 통합개발
