@@ -309,14 +309,14 @@
 
 ------
 <a name="gantt-chart" href="#gantt-chart0">1</a>: 프로젝트 일정관리를 위한 바형태의 도구<br>
-<a name="postman" href="#postman0">2</a>: API 개발을 빠르고 쉽게 구현할수있도록 도와주며 개발된 API를 테스트하여 공유할수있도록 도와주는 플랫폼<br>
+<a name="postman" href="#postman0">2</a>: API 개발을 빠르고 쉽게 구현할 수 있도록 도와주며 개발된 API를 테스트하여 공유할 수 있도록 도와주는 플랫폼<br>
 <a name="swagger-ui" href="#swagger-ui0">3</a>: 사용자가 REST API를 빠르고 쉽게 배우고 실행하도록 하기 위해 대화식 API 콘솔을 생성할 수 있는 표시장치 프레임워크<br>
 <a name="eslint" href="#eslint0">4</a>: 코드를 분석해 문법적인 오류나 안티 패턴을 찾아주고 일관된 코드 스타일로 작성하도록 도와주는 오픈소스<br>
 <a name="day-js" href="#day-js0">5</a>: 많은 JavaScript 날짜 관련 라이브러리중 가장 가벼운 라이브러리<br>
-<a name="drill-updown" href="#drill-updown0">6</a>: <br/>드릴다운(Drill Down)데이터 조회를 상위 수준에서 하위 수준으로 하는 방식을 의미합니다.<br>드릴업(Drill Up)데이터 조회를 하위 수준에서 상위 수준으로 하는 방식을 의미합니다.<br>
-<a name="chart-js" href="#chart-js0">7</a>: 막대 그래프, 차트등 데이터 시각화를위한 오픈소스 라이브러리 <br>
-<a name="react-dnd" href="#react-dnd0">8</a>: 아이템간의 순서변경, 드래그 액션을 편리하게 사용할수있는 기능<br>
-<a name="isvalid-isdirty" href="#isvalid-isdirty0">9</a>: useForm에 어떤 필드든 특정 이벤트(사용자의 입력등)가 있었는지 확인할때사용 어떤 필드에 사용자 입력이 있었는지 알아낼때 사용
+<a name="drill-updown" href="#drill-updown0">6</a>: <br/>드릴다운(Drill Down) - 데이터 조회를 상위 수준에서 하위 수준으로 하는 방식<br>드릴업(Drill Up) - 데이터 조회를 하위 수준에서 상위 수준으로 하는 방식<br>
+<a name="chart-js" href="#chart-js0">7</a>: 막대 그래프, 차트등 데이터 시각화를 위한 오픈소스 라이브러리 <br>
+<a name="react-dnd" href="#react-dnd0">8</a>: 아이템간의 순서변경, 드래그 액션을 편리하게 사용할 수 있는 기능<br>
+<a name="isvalid-isdirty" href="#isvalid-isdirty0">9</a>: useForm에 어떤 필드든 특정 이벤트(사용자의 입력 등)가 있었는지 확인할때 사용 / 어떤 필드에 사용자 입력이 있었는지 알아낼때 사용
 
 
    
